@@ -1,0 +1,100 @@
+/* reset style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* style */
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  width: 100px;
+  text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+  font-style: roboto;
+  font-size: 16px;
+  background-color:gray;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+class header {
+  background: #333;
+  color: #fff;
+  padding: 10px 15px;
+}
+class section{
+  color:blue ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+class table{
+  border-collapse: collapse;
+  width: 100%;
+  background-color: black;
+}
+class skills{
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+  margin-right: 20px;
+  text-align: center;
+}
+table th, table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+class form-group{
+  margin-bottom: 15px;
+  font-style: oblique;
+
+}
+button{
+  background-color: black;
+  color: red;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: red;
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  font-style: inherit;
+
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+  font-style: inherit;
+  text-underline-offset: 10px;
+}
+
+h3 {
+  font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+
+
+

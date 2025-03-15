@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>My Portfolio</title>
 </head>
 
 <body>
 
-    <header>
+    <header class="site-header">
         <!-- header section -->
         <nav>
             <ul>
@@ -20,28 +21,45 @@
             </ul>
         </nav>
     </header>
-
-    <main>
-        <!-- main section -->
-        <section id="about">
+    <!-- main section -->
+    <main class="main-content">
+        
+        <section id="about" class="section">
+            <!-- about section -->
             <h2>About Me</h2>
             <p>My name is Timothy Konya. I am a back end developer. I love my profession.</p>
             <p>I am a student at Gomycode. I am from Nairobi County.</p>
             <p>Here is a photo of me:</p>
-            <img src="resources/image1.jpg" alt="My Image" width="200">
-            <audio controls>
+            <img src="resources/photo1.jpg" alt="Photo of Timothy" width="200"> <br>
+
+            <audio controls style="color: black;">
                 <source src="resources/audio1.opus" type="audio/mp3">
             </audio>
         </section>
 
-        <section id="work">
+        <section id="work" class="section">
+            <!-- work section -->
             <h2>My Work</h2>
+
             <p>This is my first project at Gomycode</p>
+            <p>Looking forward to working on many more projects with other developers</p>
         </section>
 
-        <section id="resume">
+        <section id="resume" class="section">
             <h2>Resume</h2>
-            <table>
+            <div class="skills">
+            <h3>Soft skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem-solving</li>
+                </ul> 
+            </div>
+                
+
+                 
+            <table class="table">
+            
                 <tr>
                     <th>Skill</th>
                     <th>Level</th>
@@ -59,27 +77,29 @@
                     <td>Beginner</td>
                 </tr>
             </table>
+        
 
         </section>
 
-        <section id="contact">
+        <section id="contact" class="section">
             <h2>Contact Me</h2>
             <p>You can reach me through:</p>
-            email:
+            email:kingmoti77@gmail.com
             <a href="mailto:kingmoti77@gmail.com">
                 tel: 0712441022 <br>
                 <br>
                 <h3>Send me a message:</h3>
                 <form>
-                    <div>
+                    <div class="form-group">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name"><br><br>
+                        
                     </div>
-                    <div>
+                    <div   class="form-group">
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email"><br><br>
                     </div>
-                    <div>
+                    <div class="form-group">
                         <label for="message">Message:</label>
                         <textarea id="message" name="message"></textarea><br><br>
                     </div>
