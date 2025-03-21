@@ -9,12 +9,22 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 nav ul li {
   display: inline;
-  margin-right: 20px;
-  width: 100px;
+  border-radius: 10px;
+  font-size: large;
+  background-color: black;
+  color: white;
+  margin: auto;
+  padding: auto;
   text-align: center;
+  
+  
 }
 body {
     font-family: Arial, sans-serif;
@@ -26,23 +36,24 @@ body {
   margin: 0;
   padding: 0;
 }
-class header {
+.site-header {
   background: #333;
   color: #fff;
   padding: 10px 15px;
 }
-class section{
-  color:blue ;
+.section{
+  color: white;
+  padding: 10px 15px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
 }
-class table{
+.table{
   border-collapse: collapse;
   width: 100%;
   background-color: black;
 }
-class skills{
+.skills{
   background-color: black;
   color: white;
   padding: 10px 15px;
@@ -67,20 +78,24 @@ button{
   color: red;
   text-decoration: none;
   margin-right: 20px;
+  width: 100%;
+  border-radius: 20px;
 }
 
-button:hover {
-  background-color: red;
-  color: black;
-  text-decoration: none;
-  margin-right: 20px;
-}
+
 p {
   font-size: 20px;
   font-weight: bold;
   color: black;
   font-style: inherit;
 
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-style: inherit;
+  text-underline-offset: 10px;
 }
 h2 {
   font-size: 20px;
@@ -94,7 +109,28 @@ h3 {
   font-weight: bold;
     color: red;
     font-style: italic;
+    font-size: small;
 }
+.form-group{
+  margin-bottom: 15px;
+  font-style: oblique;
+  width: 100%;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 20px auto;
+  background-color: black;
+
+}
+.footer{
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+
+}
+.image{
+  height: 50%;
+}
+
 
 
 
